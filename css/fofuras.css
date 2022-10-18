@@ -8,9 +8,10 @@
 }
 
 body {
-  background-image: url("../1064067.jpg");
+  background-image: url('../1064067.jpg');
   background-position: center;
   background-size: cover;
+  background-attachment: fixed;
 }
 
 button {
@@ -147,6 +148,8 @@ select {
 .todo h3 {
   flex: 1;
   font-size: 0.9rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .todo button {
